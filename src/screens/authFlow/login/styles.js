@@ -11,7 +11,10 @@ export const styles = StyleSheet.create({
     paddingHorizontal: widthPixel(20),
     paddingBottom: heightPixel(20),
     marginTop: -50,
-    gap: 20,
+    
+  },
+  custominput:{
+    gap:15,
   },
   title: {
     marginTop: heightPixel(100),
@@ -19,6 +22,7 @@ export const styles = StyleSheet.create({
     fontSize: 20,
     color: colors.lightBlack,
     fontFamily: 'Poppins-Bold',
+  
   },
   forgetcontainer: {
     alignItems: 'flex-end',

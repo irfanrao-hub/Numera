@@ -40,7 +40,6 @@ const SignupScreen = ({navigation}) => {
         contentContainerStyle={styles.fg1}>
         <View style={[styles.wrapper]}>
           <Text style={styles.title}>SIGN UP</Text>
-
           <View style={styles.custominput}>
             <CustomInput
               errorText={nameValue}

@@ -40,6 +40,7 @@ const LoginScreen = ({navigation}) => {
       <View style={[styles.wrapper]}>
         <Text style={styles.title}>SIGN IN</Text>
         <View>
+          <View style={styles.custominput}>
           <CustomInput
             onChangeText={text => setEmail(text)}
             placeholder={'Email ID'}
@@ -54,6 +55,7 @@ const LoginScreen = ({navigation}) => {
             eyeValue={showPassword ? appIcons.show : appIcons.hide}
             onChangeText={text => setPassword(text)}
           />
+          </View>
         </View>
 
         <View style={styles.forgetcontainer}>
