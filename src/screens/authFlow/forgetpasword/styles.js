@@ -1,7 +1,6 @@
 import {StyleSheet} from 'react-native';
 import {colors, fontFamily, heightPixel, widthPixel} from '../../../services';
 import { responsiveFontSize } from 'react-native-responsive-dimensions';
-
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -9,9 +8,7 @@ export const styles = StyleSheet.create({
   },
   fg1:{
     flexGrow:1,
-
   },
-
   wrapper: {
     flex: 1,
     paddingHorizontal: widthPixel(20),
@@ -32,8 +29,7 @@ export const styles = StyleSheet.create({
     paddingBottom: heightPixel(10),
     fontSize: 20,
     color: colors.lightBlack,
-    fontFamily: fontFamily.appTextBold,
-    
+    fontFamily: fontFamily.appTextBold, 
   },
   forgetcontainer: {
     alignItems: 'flex-end',
@@ -42,10 +38,8 @@ export const styles = StyleSheet.create({
   forgetText: {
     color: colors.lightBackground,
     fontSize: 14,
-    textDecorationLine: 'underline',
-    
+    textDecorationLine: 'underline',  
   },
-
   pv30: {
     paddingVertical: heightPixel(180),
   },

@@ -6,33 +6,28 @@ export const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: colors.background,
   },
-
   wrapper: {
     flex: 1,
     paddingHorizontal: widthPixel(20),
     paddingBottom: heightPixel(20),
-    marginTop:-50,
+    marginTop: -50,
+    gap: 20,
   },
-
   title: {
     marginTop: heightPixel(100),
     paddingBottom: heightPixel(10),
     fontSize: 20,
     color: colors.lightBlack,
     fontFamily: 'Poppins-Bold',
-    
   },
   forgetcontainer: {
     alignItems: 'flex-end',
-    
   },
   forgetText: {
     color: colors.lightBackground,
     fontSize: 14,
     textDecorationLine: 'underline',
-    
   },
-
   pv30: {
     paddingVertical: heightPixel(30),
   },
@@ -54,15 +49,15 @@ export const styles = StyleSheet.create({
   ortext: {
     color: colors.lightBlack,
     fontSize: 20,
-    lineHeight:1,
+    lineHeight: 1,
     paddingTop: heightPixel(45),
-    marginTop:8,
+    marginTop: 8,
   },
   rowEvenly: {
     flexDirection: 'row',
     marginBottom: 130,
     justifyContent: 'space-evenly',
-    marginHorizontal:80,
+    marginHorizontal: 80,
   },
   socialView: {
     width: widthPixel(50),

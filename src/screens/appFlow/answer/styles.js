@@ -4,10 +4,8 @@ import {
   fontFamily,
   heightPixel,
   widthPixel,
-  wp,
 } from '../../../services';
 import {responsiveFontSize} from 'react-native-responsive-dimensions';
-
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -16,7 +14,6 @@ export const styles = StyleSheet.create({
   fg1: {
     flexGrow: 1,
   },
-
   wrapper: {
     flex: 1,
     paddingHorizontal: widthPixel(20),
@@ -26,15 +23,13 @@ export const styles = StyleSheet.create({
   head: {
     marginTop: -40,
   },
-
   box: {
     width: widthPixel(390),
     height: heightPixel(170),
     backgroundColor: colors.background,
     elevation: 2,
     padding: 15,
-    borderRadius:8,
-    
+    borderRadius: 8,
   },
   txt: {
     fontFamily: fontFamily.appTextRegular,
@@ -66,7 +61,7 @@ export const styles = StyleSheet.create({
     height: heightPixel(190),
     backgroundColor: colors.background,
     marginTop: 20,
-    borderRadius:8,
+    borderRadius: 8,
   },
   txtt: {
     fontFamily: fontFamily.appTextRegular,
@@ -80,7 +75,6 @@ export const styles = StyleSheet.create({
     padding: 2,
     paddingTop: 20,
   },
-
   leftt: {
     fontSize: responsiveFontSize(2.3),
     fontFamily: fontFamily.appTextRegular,

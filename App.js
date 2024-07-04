@@ -1,8 +1,6 @@
 import React from 'react';
 import {MainNavigator} from './src/services/navigation';
 import {Platform, SafeAreaView, View} from 'react-native';
-import 'react-native-gesture-handler';
-import 'react-native-reanimated';
 const App = () => {
   return (
     <View style={{flex: 1}}>

@@ -1,7 +1,6 @@
 import {StyleSheet} from 'react-native';
 import {colors, fontFamily, heightPixel, widthPixel} from '../../../services';
 import {responsiveFontSize} from 'react-native-responsive-dimensions';
-
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -25,9 +24,10 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     alignSelf: 'center',
   },
-  inputmain:{
-    padding:15,
-    marginVertical:15,
+  inputmain: {
+    padding: 15,
+    marginVertical: 15,
+    gap: 20,
   },
   pv30: {
     paddingVertical: heightPixel(200),

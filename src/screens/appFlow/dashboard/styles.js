@@ -1,13 +1,6 @@
 import {StyleSheet} from 'react-native';
-import {
-  colors,
-  fontFamily,
-  heightPixel,
-  widthPixel,
-  wp,
-} from '../../../services';
+import {colors, fontFamily, heightPixel, widthPixel} from '../../../services';
 import {responsiveFontSize} from 'react-native-responsive-dimensions';
-
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -54,7 +47,6 @@ export const styles = StyleSheet.create({
     borderRadius: 8,
     borderColor: colors.lightBackground,
     borderWidth: 1,
-    // elevation: 6,
   },
   socialIcon: {
     width: widthPixel(45),

@@ -1,17 +1,29 @@
-import Dashboard from './dashboard'
-import Progress from './progress'
-import Archive from './archive'
-import Shop from './shop'
-import Problem from './problem'
-import Whiteboard from './whiteboard'
-import Answer from './answer'
-import Archiveans from './archiveans'
-import EditProfile from './editprofile'
-import ChangePassword from './changepassword'
-import PrivacyPolicy from './privacypolicy'
-
-
+import Dashboard from './dashboard';
+import Progress from './progress';
+import Archive from './archive';
+import Shop from './shop';
+import Problem from './problem';
+import Whiteboard from './whiteboard';
+import Answer from './answer';
+import Archiveans from './archiveans';
+import EditProfile from './editprofile';
+import ChangePassword from './changepassword';
+import PrivacyPolicy from './privacypolicy';
+import ContactUs from './contactus';
+import Feedback from './feedback';
 
 export {
-    Dashboard, Progress,Archive,Shop,Problem,Whiteboard,Answer,Archiveans,EditProfile,ChangePassword,PrivacyPolicy,
-}
+  Dashboard,
+  Progress,
+  Archive,
+  Shop,
+  Problem,
+  Whiteboard,
+  Answer,
+  Archiveans,
+  EditProfile,
+  ChangePassword,
+  PrivacyPolicy,
+  ContactUs,
+  Feedback,
+};

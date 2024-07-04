@@ -9,8 +9,6 @@ import {
   TouchableOpacity,
   TouchableWithoutFeedback,
 } from 'react-native';
-import { responsiveFontSize } from 'react-native-responsive-dimensions';
-
 import {
   colors,
   items,
@@ -20,34 +18,19 @@ import {
   appIcons,
   routes,
 } from '../../services';
-
-export const CustomCard = ({
-  
-  leftIcon,
- title,
- navigation,
-  inputstyle,
-  rightarrow,
-  onPress,
-  
-}) => {
+export const CustomCard = ({leftIcon, title, rightarrow, onPress}) => {
   return (
-  
-      <TouchableOpacity onPress={onPress} style={[styles.formInput]}>
-        <View style={styles.input}>
-        <Image source={leftIcon} style={styles.leftIcon}  />
-       
-      <Text style={styles.inputTextStyle}>{title}</Text>
+    <TouchableOpacity onPress={onPress} style={[styles.formInput]}>
+      <View style={styles.input}>
+        <Image source={leftIcon} style={styles.leftIcon} />
+        <Text style={styles.inputTextStyle}>{title}</Text>
       </View>
-        
-            {rightarrow && (
-          <TouchableOpacity onPress={onPress} >
-            <Image style={styles.rightarrow} source={appIcons.arrowright} />
-          </TouchableOpacity>
-        )}
-      </TouchableOpacity>
-    
-   
+      {rightarrow && (
+        <TouchableOpacity onPress={onPress}>
+          <Image style={styles.rightarrow} source={appIcons.arrowright} />
+        </TouchableOpacity>
+      )}
+    </TouchableOpacity>
   );
 };
 
@@ -98,18 +81,16 @@ const styles = StyleSheet.create({
   formInput: {
     paddingBottom: heightPixel(20),
     flexDirection: 'row',
-    alignItems:'center',
-    justifyContent:'space-between'
-
-
+    alignItems: 'center',
+    justifyContent: 'space-between',
   },
   input: {
     flexDirection: 'row',
-    alignItems: 'center',    
+    alignItems: 'center',
     paddingHorizontal: widthPixel(10),
   },
-  rightarrow:{
+  rightarrow: {
     width: widthPixel(32),
     height: widthPixel(32),
-  }
+  },
 });

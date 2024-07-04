@@ -1,11 +1,9 @@
 import React, {useState} from 'react';
-import {View, Text, StatusBar, Image, TouchableOpacity} from 'react-native';
-import {colors, routes, appIcons} from '../../../services';
+import {View, Text, StatusBar, Image} from 'react-native';
+import {colors, routes} from '../../../services';
 import {styles} from './styles';
 import {Header, Button} from '../../../components';
-import {CustomInput} from '../../../components/custominput';
 import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
-
 const Archive = ({navigation}) => {
   return (
     <View style={[styles.container]}>

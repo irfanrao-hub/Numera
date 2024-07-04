@@ -3,7 +3,6 @@ import {View, Text, StatusBar, FlatList, Image, Dimensions} from 'react-native';
 import {styles} from './styles';
 import {colors, appIcons, routes} from '../../../services';
 import Button from '../../../components/button';
-
 const {width} = Dimensions.get('window');
 const Onboarding = ({navigation}) => {
   const [currentIndex, setcurrentIndex] = useState(0);
@@ -66,7 +65,6 @@ const Onboarding = ({navigation}) => {
           />
         ))}
       </View>
-
       <View style={styles.buttonView}>
         <Button onPress={() => navigation.navigate(routes.login)}>
           Get Started

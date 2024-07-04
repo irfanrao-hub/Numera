@@ -1,11 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {
-  colors,
-  fontFamily,
-  heightPixel,
-  widthPixel,
-  wp,
-} from '../../../services';
+import {colors, fontFamily, heightPixel, widthPixel} from '../../../services';
 import {responsiveFontSize} from 'react-native-responsive-dimensions';
 
 export const styles = StyleSheet.create({
@@ -21,19 +15,18 @@ export const styles = StyleSheet.create({
     marginVertical: -20,
   },
   head: {
-    flexDirection: 'row', 
+    flexDirection: 'row',
   },
   headtext: {
     marginHorizontal: 80,
-    marginLeft:-320,
+    marginLeft: -320,
   },
-    numtxt: {
+  numtxt: {
     fontFamily: fontFamily.appTextSemiBold,
     fontSize: responsiveFontSize(3.1),
-    marginLeft:-320,
-    marginTop:-110,
+    marginLeft: -320,
+    marginTop: -110,
   },
-
   wrapper: {
     flex: 1,
     paddingHorizontal: widthPixel(20),
@@ -46,7 +39,6 @@ export const styles = StyleSheet.create({
     color: colors.lightBackground,
     paddingLeft: 70,
   },
- 
 
   title: {
     marginTop: heightPixel(100),
@@ -59,26 +51,23 @@ export const styles = StyleSheet.create({
     paddingVertical: heightPixel(200),
     marginTop: -150,
   },
-  centeredView:{
+  centeredView: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
- 
   },
-  modalview:{
-    backgroundColor:colors.transperant,
-    width:widthPixel(430),
-    height:heightPixel(932),
-    borderRadius:8,
+  modalview: {
+    backgroundColor: colors.transperant,
+    width: widthPixel(430),
+    height: heightPixel(932),
+    borderRadius: 8,
     padding: 20,
-
   },
-  calendermain:{
+  calendermain: {
     flex: 1,
     justifyContent: 'center',
-    width:widthPixel(388),
-    height:heightPixel(500),
-
+    width: widthPixel(388),
+    height: heightPixel(500),
   },
   texthead: {
     alignItems: 'center',
@@ -118,28 +107,22 @@ export const styles = StyleSheet.create({
     paddingLeft: 130,
     marginTop: -30,
   },
-  probtxt:{
+  probtxt: {
     fontFamily: fontFamily.appTextSemiBold,
     fontSize: responsiveFontSize(2.2),
     color: colors.black,
     paddingLeft: 60,
-    
-
   },
- 
   fire: {
     width: widthPixel(32),
-    height: widthPixel(32),  
+    height: widthPixel(32),
   },
-  row:{
+  row: {
     paddingLeft: 90,
     marginTop: 15,
   },
-  chartContainer: { 
-    // backgroundColor:colors.black,
-   paddingLeft:50,
+  chartContainer: {
+    paddingLeft: 50,
     marginTop: -60,
   },
-
- 
 });

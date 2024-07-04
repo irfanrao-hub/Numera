@@ -1,11 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {
-  colors,
-  fontFamily,
-  heightPixel,
-  widthPixel,
-  wp,
-} from '../../../services';
+import {colors, fontFamily, heightPixel, widthPixel} from '../../../services';
 import {responsiveFontSize} from 'react-native-responsive-dimensions';
 
 export const styles = StyleSheet.create({
@@ -16,13 +10,12 @@ export const styles = StyleSheet.create({
   fg1: {
     flexGrow: 1,
   },
-
   wrapper: {
     flex: 1,
     paddingHorizontal: widthPixel(20),
     paddingBottom: heightPixel(20),
     backgroundColor: colors.background,
-    marginVertical:-30,
+    marginVertical: -30,
   },
   etext: {
     fontFamily: fontFamily.appTextSemiBold,
@@ -32,7 +25,6 @@ export const styles = StyleSheet.create({
     paddingBottom: 10,
     marginTop: -10,
   },
-
   title: {
     marginTop: heightPixel(100),
     paddingBottom: heightPixel(10),
@@ -40,7 +32,6 @@ export const styles = StyleSheet.create({
     color: colors.lightBlack,
     fontFamily: fontFamily.appTextBold,
   },
-
   rowEvenly: {
     width: '100%',
     height: heightPixel(116),
@@ -75,7 +66,6 @@ export const styles = StyleSheet.create({
     color: colors.black,
     paddingTop: 30,
   },
-
   box: {
     width: widthPixel(390),
     height: heightPixel(190),
@@ -83,7 +73,7 @@ export const styles = StyleSheet.create({
     elevation: 2,
     padding: 15,
     marginTop: 10,
-    borderRadius:8,
+    borderRadius: 8,
   },
   txt: {
     fontFamily: fontFamily.appTextRegular,

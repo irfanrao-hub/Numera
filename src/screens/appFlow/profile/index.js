@@ -5,13 +5,11 @@ import {AppHeader, Header} from '../../../components';
 import {styles} from './styles';
 import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 import {CustomCard} from '../../../components/customcard';
-
 const Profile = ({navigation}) => {
   return (
     <View style={[styles.container]}>
       <StatusBar backgroundColor={colors.background} barStyle="dark-content" />
       <Header leftIcon={true} title={'PROFILE'} />
-
       <KeyboardAwareScrollView
         keyboardShouldPersistTaps="always"
         showsVerticalScrollIndicator={false}
@@ -43,8 +41,16 @@ const Profile = ({navigation}) => {
               navigation={navigation}
               onPress={() => navigation.navigate(routes.privacypolicy)}
             />
-            <CustomCard title={'Contact Us'} rightarrow={true} />
-            <CustomCard title={'Feedback'} rightarrow={true} />
+            <CustomCard
+              title={'Contact Us'}
+              rightarrow={true}
+              onPress={() => navigation.navigate(routes.contactus)}
+            />
+            <CustomCard
+              title={'Feedback'}
+              rightarrow={true}
+              onPress={() => navigation.navigate(routes.feedback)}
+            />
           </View>
         </View>
       </KeyboardAwareScrollView>

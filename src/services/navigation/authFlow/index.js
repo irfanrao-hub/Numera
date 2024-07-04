@@ -3,14 +3,14 @@ import { CardStyleInterpolators, createStackNavigator } from '@react-navigation/
 
 import { routes } from '../../constants';
 import * as Auth from '../../../screens/authFlow';
-import DrawerNavigator from '../drawerFlow';
+// import DrawerNavigator from '../drawerFlow';
 
 const AuthStack = createStackNavigator()
 
 export const AuthNavigation = () => {
     return (
         <AuthStack.Navigator initialRouteName={routes.splash} screenOptions={{ headerShown: false, cardStyleInterpolator: CardStyleInterpolators.forFadeFromCenter }}>
-            <AuthStack.Screen name={routes.drawer} component={DrawerNavigator} />
+          
             <AuthStack.Screen name={routes.splash} component={Auth.Splash} />
             <AuthStack.Screen name={routes.onboarding} component={Auth.Onboarding} />
             <AuthStack.Screen name={routes.login} component={Auth.Login} />

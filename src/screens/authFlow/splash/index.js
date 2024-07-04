@@ -1,15 +1,12 @@
 import React, {useEffect, useState} from 'react';
 import {View, Text, StatusBar, Image} from 'react-native';
 import {styles} from './styles';
-
 import {colors, appIcons, routes} from '../../../services';
-
 const Splash = ({navigation}) => {
   const [user, setUser] = useState(null);
   useEffect(() => {
     perfomeTimeconsumingTask();
   }, []);
-
   const perfomeTimeconsumingTask = async () => {
     return new Promise(resolve =>
       setTimeout(() => {

@@ -17,20 +17,23 @@ import {
 } from '../../services';
 import {responsiveFontSize} from 'react-native-responsive-dimensions';
 
-const Alert = ({visible, onClose, message, title,leftIcon,buttons}) => {
+const Alert = ({visible, onClose, message, title, leftIcon, buttons}) => {
   return (
     <Modal transparent={true} animationType="slide" visible={visible}>
-      <StatusBar backgroundColor={colors.transperant} barStyle="light-content"/>
+      <StatusBar
+        backgroundColor={colors.transperant}
+        barStyle="light-content"
+      />
       <View style={styles.maincontainer}>
         <View style={styles.main}>
           <View style={styles.centerview}>
             <View style={styles.content}>
               <View style={styles.head}>
-              {leftIcon && (
-          <TouchableOpacity onPress={() => navigation.goBack()}>
-             <Image style={styles.iconStyle} source={appIcons.hint} />
-          </TouchableOpacity>
-        )}
+                {leftIcon && (
+                  <TouchableOpacity onPress={() => navigation.goBack()}>
+                    <Image style={styles.iconStyle} source={appIcons.hint} />
+                  </TouchableOpacity>
+                )}
                 <TouchableOpacity onPress={onClose}>
                   <Text style={styles.hint}>{title}</Text>
                 </TouchableOpacity>
@@ -39,17 +42,16 @@ const Alert = ({visible, onClose, message, title,leftIcon,buttons}) => {
                 <Text style={styles.message}>{message}</Text>
               </TouchableOpacity>
               <View style={styles.btnContainer}>
-            {buttons?.map((button, index) => (
-              <View key={index} style={styles.btnWrapper}>
-                {button}
+                {buttons?.map((button, index) => (
+                  <View key={index} style={styles.btnWrapper}>
+                    {button}
+                  </View>
+                ))}
               </View>
-            ))}
-          </View>
-            </View>
             </View>
           </View>
         </View>
-      
+      </View>
     </Modal>
   );
 };
@@ -62,11 +64,9 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     backgroundColor: colors.transperant,
-    
   },
   main: {
     flex: 1,
-   
   },
   centerview: {
     flex: 1,
@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: colors.blacklight,
     fontSize: responsiveFontSize(1.9),
-    padding:10,
+    padding: 10,
   },
   iconStyle: {
     width: widthPixel(20),

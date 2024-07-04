@@ -9,8 +9,6 @@ import {
   TouchableOpacity,
   TouchableWithoutFeedback,
 } from 'react-native';
-import { responsiveFontSize } from 'react-native-responsive-dimensions';
-
 import {
   colors,
   items,
@@ -19,7 +17,6 @@ import {
   widthPixel,
   appIcons,
 } from '../../services';
-
 export const CustomInput = ({
   dropDownShow,
   leftIcon,
@@ -31,19 +28,30 @@ export const CustomInput = ({
   inputstyle,
   rightarrow,
   rightIcon,
+  rightcamera,
+  width = '100%',
+  height = heightPixel(60),
+  borderRadius = widthPixel(14),
+  backgroundColor = colors.lightgrey,
+  borderWidth = 2,
+  elevation = 0,
   value,
   placeholder,
   keyboardType,
   editable,
-  secureTextEntry,
   onChangeText,
-  multiline,
-  maxLength,
-  errorText,
 }) => {
   return (
-    <View style={[styles.formInput]}>
-      <View style={[styles.input]}>
+    <View style={{...styles.formInput, width: width}}>
+      <View
+        style={{
+          ...styles.input,
+          borderRadius: borderRadius,
+          borderWidth: borderWidth,
+          height: height,
+          backgroundColor: backgroundColor,
+          elevation: elevation,
+        }}>
         <Image source={leftIcon} style={styles.leftIcon} />
         <TouchableOpacity
           style={{flex: 1}}
@@ -65,9 +73,14 @@ export const CustomInput = ({
             <Image source={eyeValue} style={styles.eyeIcon} />
           </TouchableOpacity>
         )}
-            {rightarrow && (
+        {rightarrow && (
           <TouchableOpacity onPress={() => navigation.goBack()}>
             <Image style={styles.rightarrow} source={appIcons.show} />
+          </TouchableOpacity>
+        )}
+        {rightcamera && (
+          <TouchableOpacity onPress={() => navigation.goBack()}>
+            <Image style={styles.rightarrow} source={appIcons.camera} />
           </TouchableOpacity>
         )}
       </View>
@@ -133,23 +146,18 @@ const styles = StyleSheet.create({
     resizeMode: 'contain',
   },
   formInput: {
-    width: '100%',
-    paddingBottom: heightPixel(20),
-    // paddingHorizontal: widthPixel(20),
+    // paddingBottom: heightPixel(20),
   },
   input: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    backgroundColor: colors.lightgrey,
     paddingHorizontal: widthPixel(10),
-    borderRadius: widthPixel(14),
     borderColor: colors.grey,
-    borderWidth: 2,
   },
-  rightarrow:{
+  rightarrow: {
     width: widthPixel(24),
     height: widthPixel(24),
     resizeMode: 'contain',
-  }
+  },
 });

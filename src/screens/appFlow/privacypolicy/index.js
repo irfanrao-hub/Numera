@@ -1,11 +1,9 @@
 import React from 'react';
 import {View, Text, StatusBar} from 'react-native';
-import {appIcons, colors, routes} from '../../../services';
-import {AppHeader, Button, Header} from '../../../components';
+import {colors} from '../../../services';
+import {Header} from '../../../components';
 import {styles} from './styles';
 import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
-import {CustomInput} from '../../../components/custominput';
-
 const PrivacyPolicy = ({navigation}) => {
   return (
     <View style={[styles.container]}>

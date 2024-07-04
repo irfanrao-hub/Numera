@@ -1,21 +1,17 @@
 import React from 'react';
 import {StyleSheet, Image, Text, View, TouchableOpacity} from 'react-native';
-
 import {
   appIcons,
   colors,
   fontFamily,
-  fontPixel,
   heightPixel,
   widthPixel,
   wp,
 } from '../../services';
 import {useNavigation} from '@react-navigation/native';
 import {responsiveFontSize} from 'react-native-responsive-dimensions';
-
 const Header = ({title, leftIcon, mainLogo, hintLogo}) => {
   const navigation = useNavigation();
-
   return (
     <View style={[styles.container]}>
       <View>

@@ -1,9 +1,8 @@
 import React, {useState} from 'react';
-import {View, Text, StatusBar, Image, TouchableOpacity} from 'react-native';
-import {colors, routes, appIcons} from '../../../services';
+import {View, Text, StatusBar, } from 'react-native';
+import {colors,} from '../../../services';
 import {styles} from './styles';
-import {Header, Button, AppHeader, Alert} from '../../../components';
-import {CustomInput} from '../../../components/custominput';
+import {Header, AppHeader, Alert} from '../../../components';
 import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 const Archiveans = ({navigation}) => {
   return (

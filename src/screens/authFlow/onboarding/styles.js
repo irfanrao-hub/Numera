@@ -1,8 +1,5 @@
-import {StyleSheet, Dimensions} from 'react-native';
+import {StyleSheet} from 'react-native';
 import {colors, fontFamily, wp} from '../../../services';
-import {responsiveFontSize} from 'react-native-responsive-dimensions';
-const {width} = Dimensions.get('window');
-
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -14,7 +11,6 @@ export const styles = StyleSheet.create({
     width: 310,
     height: 290,
   },
-
   onboardingItem: {
     alignItems: 'center',
     justifyContent: 'center',
@@ -44,7 +40,7 @@ export const styles = StyleSheet.create({
     marginVertival: 20,
   },
   dot: {
-    marginBottom:60,
+    marginBottom: 60,
     height: 10,
     width: 10,
     borderRadius: 10,

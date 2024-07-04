@@ -1,16 +1,8 @@
 import React, {useState} from 'react';
 import {View, Text, StatusBar, Image, TouchableOpacity} from 'react-native';
-import {colors, routes, appIcons, heightPixel, responsiveFontSize} from '../../../services';
+import {colors, appIcons} from '../../../services';
 import {styles} from './styles';
-import {
-  Header,
-  Button,
-  AppHeader,
-  Alert,
-  Tab,
-  Submitbtn,
-} from '../../../components';
-
+import {Header, AppHeader, Alert, Tab, Submitbtn} from '../../../components';
 import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 
 const Shop = ({navigation}) => {
@@ -171,9 +163,7 @@ const Shop = ({navigation}) => {
                       <Image source={item.icon} style={styles.socialIcon} />
                       <Text style={styles.modetitle}>{item.title}</Text>
                     </TouchableOpacity>
-                    <Tab onPress={item.onButtonPress}>
-                      {item.buttontitle}{' '}
-                    </Tab>
+                    <Tab onPress={item.onButtonPress}>{item.buttontitle} </Tab>
                   </View>
                 ))
               : shopArray.map((item, index) => (
@@ -187,12 +177,14 @@ const Shop = ({navigation}) => {
                     <Text style={styles.textcosm}>{item.title}</Text>
                     <Tab onPress={item.onButtonPress}>
                       {index % 2 === 0 ? (
-                       <Text>{item.buttontitle} </Text>
+                        <Text>{item.buttontitle} </Text>
                       ) : (
                         <View style={styles.textpie}>
-                        <Text style={styles.tiltetext}>{item.buttontitle} </Text>
-                         </View>
-                       )} 
+                          <Text style={styles.tiltetext}>
+                            {item.buttontitle}{' '}
+                          </Text>
+                        </View>
+                      )}
                     </Tab>
                   </View>
                 ))}
@@ -211,5 +203,4 @@ const Shop = ({navigation}) => {
     </View>
   );
 };
-
 export default Shop;

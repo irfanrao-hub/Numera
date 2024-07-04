@@ -1,22 +1,16 @@
 import React from 'react';
 import {StyleSheet, Text, View, TouchableOpacity} from 'react-native';
-
 import {colors, fontFamily, heightPixel, widthPixel, wp} from '../../services';
-
 const Submitbtn = props => {
-  const {style, disable, onPress, children ,textstyle} = props;
-
+  const {style, disable, onPress, children, textstyle} = props;
   return (
     <View style={styles.topContainer}>
-      <TouchableOpacity
-        style={[styles.container, style]}
-        onPress={onPress}>
+      <TouchableOpacity style={[styles.container, style]} onPress={onPress}>
         <Text style={[styles.label, textstyle]}>{children}</Text>
       </TouchableOpacity>
     </View>
   );
 };
-
 const styles = StyleSheet.create({
   topContainer: {
     marginBottom: wp(5),
@@ -29,16 +23,13 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     flexDirection: 'row',
     justifyContent: 'center',
-    borderWidth:1,
+    borderWidth: 1,
     borderColor: colors.lightBackground,
-    
   },
-
   label: {
     color: colors.background,
     fontFamily: fontFamily.appTextSemiBold,
     fontSize: 16,
   },
 });
-
 export default Submitbtn;
