@@ -10,6 +10,7 @@ import {
 } from '../../services';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {TouchableOpacity} from 'react-native-gesture-handler';
+import { useNavigation } from '@react-navigation/native';
 const AppHeader = ({
   title,
   titletxt,
@@ -25,7 +26,6 @@ const AppHeader = ({
   pieicon,
   pie,
   piepic,
-  profileicon,
   shoptoken,
   arrow,
   graph,
@@ -35,9 +35,11 @@ const AppHeader = ({
   onCalendarPress,
   onShopCosmeticsPress,
   onShopHintPress,
+ 
 }) => {
   const insets = useSafeAreaInsets();
   const statusBarHeight = insets.top;
+  const navigation =useNavigation()
   return (
     <View
       style={[
@@ -68,7 +70,7 @@ const AppHeader = ({
         )}
 
         {righticon && (
-          <TouchableOpacity onPress={() => navigation.goBack()}>
+          <TouchableOpacity >
             <Image style={styles.rightpie} source={appIcons.problem} />
           </TouchableOpacity>
         )}
@@ -78,46 +80,38 @@ const AppHeader = ({
           </TouchableOpacity>
         )}
         {pieicon && (
-          <TouchableOpacity onPress={() => navigation.goBack()}>
+          <TouchableOpacity >
             <Image style={styles.righticon} source={appIcons.pieicon} />
           </TouchableOpacity>
         )}
         {pie && (
-          <TouchableOpacity onPress={() => navigation.goBack()}>
+          <TouchableOpacity>
             <Image style={styles.righticon} source={appIcons.pie} />
           </TouchableOpacity>
         )}
         {piepic && (
-          <TouchableOpacity onPress={() => navigation.goBack()}>
+          <TouchableOpacity >
             <Image style={styles.righticon} source={appIcons.piepic} />
           </TouchableOpacity>
         )}
         {shoptoken && (
-          <TouchableOpacity onPress={() => navigation.goBack()}>
+          <TouchableOpacity >
             <Image style={styles.shoptoken} source={appIcons.shoptoken} />
           </TouchableOpacity>
         )}
         {arrow && (
-          <TouchableOpacity onPress={() => navigation.goBack()}>
+          <TouchableOpacity >
             <Image style={styles.arrow1} source={appIcons.arrow1} />
             <Image style={styles.arrow2} source={appIcons.arrow2} />
           </TouchableOpacity>
         )}
         {graph && (
-          <TouchableOpacity onPress={() => navigation.goBack()}>
+          <TouchableOpacity >
             <Image style={styles.graph} source={appIcons.graph} />
           </TouchableOpacity>
         )}
-        {profileicon && (
-          <View>
-            <Image style={styles.profilelogo} source={appIcons.profilelogo} />
-            <TouchableOpacity
-              style={styles.edit}
-              onPress={() => navigation.goBack()}>
-              <Image style={styles.editprofile} source={appIcons.editprofile} />
-            </TouchableOpacity>
-          </View>
-        )}
+
+       
       </View>
     </View>
   );
@@ -256,7 +250,8 @@ const styles = StyleSheet.create({
   profilelogo: {
     width: widthPixel(150),
     height: heightPixel(150),
-    marginHorizontal: -215,
+    // marginHorizontal: -215,
+    borderRadius:100,
   },
   editprofile: {
     width: widthPixel(20),

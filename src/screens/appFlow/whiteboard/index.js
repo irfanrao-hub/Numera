@@ -10,37 +10,37 @@ const Whiteboard = ({navigation}) => {
       id: 1,
       title: 'Standard Mode',
       icon: appIcons.write,
-      onPress: () => mode1(),
+      // onPress: () => mode1(),
     },
     {
       id: 2,
       title: 'Focus Mode',
       icon: appIcons.line,
-      onPress: () => mode2(),
+      // onPress: () => mode2(),
     },
     {
       id: 3,
       title: 'Broswer',
       icon: appIcons.arase,
-      onPress: () => mode3(),
+      // onPress: () => mode3(),
     },
     {
       id: 4,
       title: 'Broswer',
       icon: appIcons.left,
-      onPress: () => mode3(),
+      // onPress: () => mode3(),
     },
     {
       id: 5,
       title: 'Broswer',
       icon: appIcons.right,
-      onPress: () => mode3(),
+      // onPress: () => mode3(),
     },
     {
       id: 6,
       title: 'Broswer',
       icon: appIcons.del,
-      onPress: () => mode3(),
+      // onPress: () => mode3(),
     },
   ];
   return (

@@ -4,6 +4,23 @@
             "outputFile": "com.numera.app-mergeDebugResources-3:/values-ja/values-ja.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\HP Pavilion 15\\.gradle\\caches\\transforms-3\\a07654064b8da3edf95a351b245121f3\\transformed\\jetified-ucrop-2.2.6-native\\res\\values-ja\\values-ja.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,97,153,208,257,301",
+                        "endColumns": "41,55,54,48,43,42",
+                        "endOffsets": "92,148,203,252,296,339"
+                    },
+                    "to": {
+                        "startLines": "49,50,51,52,53,54",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "5315,5357,5413,5468,5517,5561",
+                        "endColumns": "41,55,54,48,43,42",
+                        "endOffsets": "5352,5408,5463,5512,5556,5599"
+                    }
+                },
+                {
                     "source": "C:\\Users\\HP Pavilion 15\\.gradle\\caches\\transforms-3\\3b303adfc84091e5843c326d7700b139\\transformed\\jetified-play-services-base-17.0.0\\res\\values-ja\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",

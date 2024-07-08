@@ -1,12 +1,6 @@
 apply plugin: "com.android.application"
 apply plugin: "com.facebook.react"
-android {
-    
-    defaultConfig {
-        
-        multiDexEnabled true
-    }
-}
+
 
 
 /**
@@ -129,3 +123,12 @@ dependencies {
 }
 
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
+
+android {
+
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        
+    }
+    
+}

@@ -55,11 +55,11 @@ export const styles = StyleSheet.create({
     fontSize: 20,
     lineHeight: 1,
     paddingTop: heightPixel(45),
-    marginTop: 8,
+    marginTop: 30,
   },
   rowEvenly: {
     flexDirection: 'row',
-    marginBottom: 130,
+    marginBottom: 180,
     justifyContent: 'space-evenly',
     marginHorizontal: 80,
   },
@@ -71,7 +71,7 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     borderRadius: 100,
     padding: 18,
-    elevation: 6,
+    elevation: 3,
   },
   socialIcon: {
     width: widthPixel(32),

@@ -10,19 +10,19 @@ const Dashboard = ({navigation}) => {
       id: 1,
       title: 'Standard Mode',
       icon: appIcons.mode1,
-      onPress: () => mode1(),
+      onPress: () => {},
     },
     {
       id: 2,
       title: 'Focus Mode',
       icon: appIcons.mode2,
-      onPress: () => mode2(),
+      onPress: () => {},
     },
     {
       id: 3,
       title: 'Broswer',
       icon: appIcons.mode3,
-      onPress: () => mode3(),
+      onPress: () => {},
     },
   ];
   return (

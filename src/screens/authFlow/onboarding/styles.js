@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
   },
   onboardingImage: {
     resizeMode: 'contain',
-    width: 310,
+    width: 300,
     height: 290,
   },
   onboardingItem: {

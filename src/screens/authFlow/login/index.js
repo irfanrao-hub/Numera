@@ -38,7 +38,7 @@ const LoginScreen = ({navigation}) => {
       <Header leftIcon={true} mainLogo={true} />
 
       <View style={[styles.wrapper]}>
-        <Text style={styles.title}>SIGN IN</Text>
+        <Text style={[styles.title]}>SIGN IN</Text>
         <View>
           <View style={styles.custominput}>
           <CustomInput
@@ -67,7 +67,7 @@ const LoginScreen = ({navigation}) => {
         </View>
 
         <View style={styles.pv30}>
-          <Button onPress={() => navigation.navigate(routes.tab)}>Login</Button>
+          <Button onPress={() => navigation.replace(routes.tab)}>Login</Button>
         </View>
 
         <View style={styles.texthead}>

@@ -49,35 +49,35 @@ const Shop = ({navigation}) => {
       id: 2,
       icon: appIcons.hint,
       title: '5 Hint',
-      onPress: () => mode1(),
+      // onPress: () => mode1(),
       buttontitle: '450 π',
     },
     {
       id: 3,
       icon: appIcons.hint,
       title: '20 Hint',
-      onPress: () => mode1(),
+      // onPress: () => mode1(),
       buttontitle: '3000 π',
     },
     {
       id: 4,
       icon: appIcons.hint,
       title: '30 Hint',
-      onPress: () => mode1(),
+      // onPress: () => mode1(),
       buttontitle: '5000 π',
     },
     {
       id: 5,
       icon: appIcons.hint,
       title: '40 Hint',
-      onPress: () => mode1(),
+      // onPress: () => mode1(),
       buttontitle: '7000 π',
     },
     {
       id: 6,
       icon: appIcons.hint,
       title: '50 Hint',
-      onPress: () => mode1(),
+      // onPress: () => mode1(),
       buttontitle: '10000 π',
     },
   ];
@@ -94,35 +94,35 @@ const Shop = ({navigation}) => {
       id: 2,
       color: colors.lightgreen,
       title: 'Green',
-      onPress: () => mode1(),
+      // onPress: () => mode1(),
       buttontitle: '450 π',
     },
     {
       id: 3,
       color: colors.lightyellow,
       title: 'Yellow',
-      onPress: () => mode1(),
+      // onPress: () => mode1(),
       buttontitle: 'DEFAULT',
     },
     {
       id: 4,
       color: colors.lightpurple,
       title: 'Purple',
-      onPress: () => mode1(),
+      // onPress: () => mode1(),
       buttontitle: '450 π',
     },
     {
       id: 5,
       color: colors.lightpink,
       title: 'Pink',
-      onPress: () => mode1(),
+      // onPress: () => mode1(),
       buttontitle: 'DEFAULT',
     },
     {
       id: 6,
       color: colors.lightorange,
       title: 'Orange',
-      onPress: () => mode1(),
+      // onPress: () => mode1(),
       buttontitle: '450 π',
     },
   ];
@@ -166,6 +166,7 @@ const Shop = ({navigation}) => {
                     <Tab onPress={item.onButtonPress}>{item.buttontitle} </Tab>
                   </View>
                 ))
+                
               : shopArray.map((item, index) => (
                   <View style={styles.cosmaticmain} key={index}>
                     <TouchableOpacity

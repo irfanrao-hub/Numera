@@ -4,18 +4,20 @@ import {responsiveFontSize} from 'react-native-responsive-dimensions';
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor:colors.background,
   },
   alertcontainer: {
     flex: 1,
   },
   wrapper: {
-    flex: 1,
+    // flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    marginVertical:5,
   },
   head: {
     marginVertical: -30,
-    marginRight: 40,
+    marginRight: 45,
   },
   headtext: {
     marginRight: 30,
@@ -25,15 +27,18 @@ export const styles = StyleSheet.create({
     flexWrap: 'wrap',
     justifyContent: 'space-between',
     justifyContent: 'space-evenly',
+        // gap:15,
+
   },
 
   rowEvenly: {
     width: widthPixel(190),
-    height: heightPixel(180),
+    height: heightPixel(179),
     backgroundColor: colors.background,
-    marginTop: 15,
-    borderRadius: 4,
-    elevation: 5,
+    marginTop: 10,
+    // gap:15,
+    borderRadius: 8,
+    elevation: 4,
   },
   socialView: {
     backgroundColor: colors.background,
@@ -69,15 +74,17 @@ export const styles = StyleSheet.create({
   },
   rectangleview: {
     width: 100,
-    height: 100,
-    borderRadius: 10,
+    height: 90,
+    borderRadius: 8,
+    
   },
   cosmaticmain: {
     width: widthPixel(190),
-    height: heightPixel(187),
-    marginTop: 10,
+    height: heightPixel(179),
+    // marginTop:-5,
+    marginVertical: 5,
     borderRadius: 4,
-    elevation: 5,
+    elevation: 4,
     alignItems: 'center',
     justifyContent: 'space-between',
     paddingTop: 15,

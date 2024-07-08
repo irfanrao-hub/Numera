@@ -1,19 +1,19 @@
-com.numera.app-pngs-0 C:\Bridgezone\Numera\android\app\build\generated\res\pngs\debug
-com.numera.app-resValues-1 C:\Bridgezone\Numera\android\app\build\generated\res\resValues\debug
-com.numera.app-rs-2 C:\Bridgezone\Numera\android\app\build\generated\res\rs\debug
-com.numera.app-mergeDebugResources-3 C:\Bridgezone\Numera\android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
-com.numera.app-mergeDebugResources-4 C:\Bridgezone\Numera\android\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
-com.numera.app-merged_res-5 C:\Bridgezone\Numera\android\app\build\intermediates\merged_res\debug
-com.numera.app-debug-6 C:\Bridgezone\Numera\android\app\src\debug\res
-com.numera.app-main-7 C:\Bridgezone\Numera\android\app\src\main\res
-com.numera.app-packaged_res-8 C:\Bridgezone\Numera\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\packaged_res\debug
-com.numera.app-packaged_res-9 C:\Bridgezone\Numera\node_modules\@react-native-community\clipboard\android\build\intermediates\packaged_res\debug
-com.numera.app-packaged_res-10 C:\Bridgezone\Numera\node_modules\@react-native-community\masked-view\android\build\intermediates\packaged_res\debug
-com.numera.app-packaged_res-11 C:\Bridgezone\Numera\node_modules\react-native-device-info\android\build\intermediates\packaged_res\debug
-com.numera.app-packaged_res-12 C:\Bridgezone\Numera\node_modules\react-native-gesture-handler\android\build\intermediates\packaged_res\debug
-com.numera.app-packaged_res-13 C:\Bridgezone\Numera\node_modules\react-native-linear-gradient\android\build\intermediates\packaged_res\debug
-com.numera.app-packaged_res-14 C:\Bridgezone\Numera\node_modules\react-native-pager-view\android\build\intermediates\packaged_res\debug
-com.numera.app-packaged_res-15 C:\Bridgezone\Numera\node_modules\react-native-reanimated\android\build\intermediates\packaged_res\debug
+com.numera.app-resValues-0 C:\Bridgezone\Numera\android\app\build\generated\res\resValues\debug
+com.numera.app-rs-1 C:\Bridgezone\Numera\android\app\build\generated\res\rs\debug
+com.numera.app-mergeDebugResources-2 C:\Bridgezone\Numera\android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.numera.app-mergeDebugResources-3 C:\Bridgezone\Numera\android\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.numera.app-merged_res-4 C:\Bridgezone\Numera\android\app\build\intermediates\merged_res\debug
+com.numera.app-debug-5 C:\Bridgezone\Numera\android\app\src\debug\res
+com.numera.app-main-6 C:\Bridgezone\Numera\android\app\src\main\res
+com.numera.app-packaged_res-7 C:\Bridgezone\Numera\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\packaged_res\debug
+com.numera.app-packaged_res-8 C:\Bridgezone\Numera\node_modules\@react-native-community\clipboard\android\build\intermediates\packaged_res\debug
+com.numera.app-packaged_res-9 C:\Bridgezone\Numera\node_modules\@react-native-community\masked-view\android\build\intermediates\packaged_res\debug
+com.numera.app-packaged_res-10 C:\Bridgezone\Numera\node_modules\react-native-device-info\android\build\intermediates\packaged_res\debug
+com.numera.app-packaged_res-11 C:\Bridgezone\Numera\node_modules\react-native-gesture-handler\android\build\intermediates\packaged_res\debug
+com.numera.app-packaged_res-12 C:\Bridgezone\Numera\node_modules\react-native-image-crop-picker\android\build\intermediates\packaged_res\debug
+com.numera.app-packaged_res-13 C:\Bridgezone\Numera\node_modules\react-native-image-picker\android\build\intermediates\packaged_res\debug
+com.numera.app-packaged_res-14 C:\Bridgezone\Numera\node_modules\react-native-linear-gradient\android\build\intermediates\packaged_res\debug
+com.numera.app-packaged_res-15 C:\Bridgezone\Numera\node_modules\react-native-pager-view\android\build\intermediates\packaged_res\debug
 com.numera.app-packaged_res-16 C:\Bridgezone\Numera\node_modules\react-native-safe-area-context\android\build\intermediates\packaged_res\debug
 com.numera.app-packaged_res-17 C:\Bridgezone\Numera\node_modules\react-native-screens\android\build\intermediates\packaged_res\debug
 com.numera.app-packaged_res-18 C:\Bridgezone\Numera\node_modules\react-native-svg\android\build\intermediates\packaged_res\debug
@@ -39,11 +39,13 @@ com.numera.app-lifecycle-viewmodel-2.3.1-37 C:\Users\HP Pavilion 15\.gradle\cach
 com.numera.app-jetified-viewpager2-1.0.0-38 C:\Users\HP Pavilion 15\.gradle\caches\transforms-3\7f0b8394916f8a66bca3afd88d9ba851\transformed\jetified-viewpager2-1.0.0\res
 com.numera.app-jetified-appcompat-resources-1.4.1-39 C:\Users\HP Pavilion 15\.gradle\caches\transforms-3\8765b17a68d22ce30149f7f90f2a1cf5\transformed\jetified-appcompat-resources-1.4.1\res
 com.numera.app-material-1.1.0-40 C:\Users\HP Pavilion 15\.gradle\caches\transforms-3\9fa67c942d58687cdf5e8c313439cd88\transformed\material-1.1.0\res
-com.numera.app-jetified-emoji2-1.0.0-41 C:\Users\HP Pavilion 15\.gradle\caches\transforms-3\aa5b0b5323cab9adb7a0b99a6389770b\transformed\jetified-emoji2-1.0.0\res
-com.numera.app-fragment-1.3.6-42 C:\Users\HP Pavilion 15\.gradle\caches\transforms-3\afce251aca17630ce52c1013147f99bf\transformed\fragment-1.3.6\res
-com.numera.app-jetified-react-android-0.72.3-debug-43 C:\Users\HP Pavilion 15\.gradle\caches\transforms-3\cc50c91fd5a56d5e31a75f6dcfd345b3\transformed\jetified-react-android-0.72.3-debug\res
-com.numera.app-jetified-savedstate-1.1.0-44 C:\Users\HP Pavilion 15\.gradle\caches\transforms-3\d532205da1749f43eb5166abb7fc2919\transformed\jetified-savedstate-1.1.0\res
-com.numera.app-sqlite-framework-2.2.0-45 C:\Users\HP Pavilion 15\.gradle\caches\transforms-3\e455857255ce84739fe1b42f807e10f7\transformed\sqlite-framework-2.2.0\res
-com.numera.app-jetified-annotation-experimental-1.1.0-46 C:\Users\HP Pavilion 15\.gradle\caches\transforms-3\eaedf959ca74dd67a376f2673c8b30fd\transformed\jetified-annotation-experimental-1.1.0\res
-com.numera.app-jetified-emoji2-views-helper-1.0.0-47 C:\Users\HP Pavilion 15\.gradle\caches\transforms-3\efb0e515bd7bdb4c9420447018b748b4\transformed\jetified-emoji2-views-helper-1.0.0\res
-com.numera.app-cardview-1.0.0-48 C:\Users\HP Pavilion 15\.gradle\caches\transforms-3\f135531a5756f151f59ebbcd94e55fe0\transformed\cardview-1.0.0\res
+com.numera.app-jetified-ucrop-2.2.6-native-41 C:\Users\HP Pavilion 15\.gradle\caches\transforms-3\a07654064b8da3edf95a351b245121f3\transformed\jetified-ucrop-2.2.6-native\res
+com.numera.app-swiperefreshlayout-1.1.0-42 C:\Users\HP Pavilion 15\.gradle\caches\transforms-3\a31ceacda85e806bfc6aa6dcc7d8465d\transformed\swiperefreshlayout-1.1.0\res
+com.numera.app-jetified-emoji2-1.0.0-43 C:\Users\HP Pavilion 15\.gradle\caches\transforms-3\aa5b0b5323cab9adb7a0b99a6389770b\transformed\jetified-emoji2-1.0.0\res
+com.numera.app-fragment-1.3.6-44 C:\Users\HP Pavilion 15\.gradle\caches\transforms-3\afce251aca17630ce52c1013147f99bf\transformed\fragment-1.3.6\res
+com.numera.app-jetified-react-android-0.72.3-debug-45 C:\Users\HP Pavilion 15\.gradle\caches\transforms-3\cc50c91fd5a56d5e31a75f6dcfd345b3\transformed\jetified-react-android-0.72.3-debug\res
+com.numera.app-jetified-savedstate-1.1.0-46 C:\Users\HP Pavilion 15\.gradle\caches\transforms-3\d532205da1749f43eb5166abb7fc2919\transformed\jetified-savedstate-1.1.0\res
+com.numera.app-sqlite-framework-2.2.0-47 C:\Users\HP Pavilion 15\.gradle\caches\transforms-3\e455857255ce84739fe1b42f807e10f7\transformed\sqlite-framework-2.2.0\res
+com.numera.app-jetified-annotation-experimental-1.1.0-48 C:\Users\HP Pavilion 15\.gradle\caches\transforms-3\eaedf959ca74dd67a376f2673c8b30fd\transformed\jetified-annotation-experimental-1.1.0\res
+com.numera.app-jetified-emoji2-views-helper-1.0.0-49 C:\Users\HP Pavilion 15\.gradle\caches\transforms-3\efb0e515bd7bdb4c9420447018b748b4\transformed\jetified-emoji2-views-helper-1.0.0\res
+com.numera.app-cardview-1.0.0-50 C:\Users\HP Pavilion 15\.gradle\caches\transforms-3\f135531a5756f151f59ebbcd94e55fe0\transformed\cardview-1.0.0\res

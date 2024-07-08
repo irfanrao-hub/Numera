@@ -125,4 +125,13 @@ export const styles = StyleSheet.create({
     paddingLeft: 50,
     marginTop: -60,
   },
+  xAxisLabelTextStyle:{
+    color:colors.grey,
+    fontSize:15,
+  },
+  yAxisTextStyle:{
+    color:colors.grey,
+    fontSize:15,
+  },
+
 });

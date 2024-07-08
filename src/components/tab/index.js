@@ -14,10 +14,11 @@ const styles = StyleSheet.create({
     width: '100%',
     height: heightPixel(40),
     backgroundColor: colors.lightBackground,
-    borderRadius: 12,
+    borderRadius: 8,
     alignItems: 'center',
     flexDirection: 'row',
     justifyContent: 'center',
+    
   },
   label: {
     color: colors.background,

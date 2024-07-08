@@ -22,7 +22,6 @@ export const CustomInput = ({
   leftIcon,
   onPressValue,
   dropdownArray,
-  numberOfLines,
   eyeValue,
   onPressIcon,
   inputstyle,
@@ -66,6 +65,7 @@ export const CustomInput = ({
             keyboardType={keyboardType}
             editable={editable}
             onChangeText={onChangeText}
+           
           />
         </TouchableOpacity>
         {rightIcon && (
@@ -74,12 +74,12 @@ export const CustomInput = ({
           </TouchableOpacity>
         )}
         {rightarrow && (
-          <TouchableOpacity onPress={() => navigation.goBack()}>
+          <TouchableOpacity >
             <Image style={styles.rightarrow} source={appIcons.show} />
           </TouchableOpacity>
         )}
         {rightcamera && (
-          <TouchableOpacity onPress={() => navigation.goBack()}>
+          <TouchableOpacity >
             <Image style={styles.rightarrow} source={appIcons.camera} />
           </TouchableOpacity>
         )}
@@ -122,8 +122,8 @@ const styles = StyleSheet.create({
     borderColor: '#C7C7C7',
   },
   leftIcon: {
-    width: widthPixel(26),
-    height: widthPixel(26),
+    width: widthPixel(24),
+    height: widthPixel(24),
     marginRight: widthPixel(12),
     resizeMode: 'contain',
   },
@@ -135,13 +135,14 @@ const styles = StyleSheet.create({
   },
 
   inputTextStyle: {
-    marginTop: heightPixel(10),
-    fontSize: 17,
+    width: '80%',
+    height:60,
+    fontSize: 15,
     fontFamily: fontFamily.appTextRegular,
     color: colors.lightBlack,
   },
   icon: {
-    width: widthPixel(23),
+    width: widthPixel(22),
     height: widthPixel(23),
     resizeMode: 'contain',
   },

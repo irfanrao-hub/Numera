@@ -2,7 +2,7 @@ import React from 'react';
 import {StyleSheet, Image, View, TouchableOpacity} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {appIcons, colors} from '../../utilities';
-import {hp} from '../../constants';
+import {hp, routes} from '../../constants';
 import {Archive, Dashboard, Progress, Shop} from '../../../screens/appFlow';
 import Profile from '../../../screens/appFlow/profile';
 const Tab = createBottomTabNavigator();
@@ -36,7 +36,7 @@ const TabButton = props => {
 };
 export function TabNavigator() {
   return (
-    <Tab.Navigator
+    <Tab.Navigator initialRouteName={routes.dashboard}
       screenOptions={{
         headerShown: false,
         tabBarStyle: styles.barStyle,

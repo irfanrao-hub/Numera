@@ -30,7 +30,7 @@ const Alert = ({visible, onClose, message, title, leftIcon, buttons}) => {
             <View style={styles.content}>
               <View style={styles.head}>
                 {leftIcon && (
-                  <TouchableOpacity onPress={() => navigation.goBack()}>
+                  <TouchableOpacity >
                     <Image style={styles.iconStyle} source={appIcons.hint} />
                   </TouchableOpacity>
                 )}

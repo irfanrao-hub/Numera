@@ -11,14 +11,14 @@ export const styles = StyleSheet.create({
     flexGrow: 1,
   },
   wrapper: {
-    flex: 1,
+    
     paddingHorizontal: widthPixel(20),
     paddingBottom: heightPixel(20),
-    backgroundColor: colors.background,
-    marginTop: -50,
+    backgroundColor:colors.background,
+    marginTop: 50,
   },
   title: {
-    marginTop: heightPixel(90),
+    // marginTop: heightPixel(90),
     paddingBottom: heightPixel(28),
     fontSize: 22,
     color: colors.lightBlack,
@@ -29,12 +29,12 @@ export const styles = StyleSheet.create({
     gap: 20,
   },
   pv30: {
-    paddingVertical: heightPixel(30),
+    paddingVertical: heightPixel(50),
   },
   texthead: {
     alignItems: 'center',
     flex: 1,
-    marginTop: -60,
+    marginTop: -115,
     lineHeight: responsiveFontSize(3),
   },
   dontHaveText: {
@@ -42,7 +42,8 @@ export const styles = StyleSheet.create({
     fontFamily: fontFamily.appTextRegular,
     fontSize: 14,
     textAlign: 'center',
-    marginTop: -40,
+// marginVertical:-30,
+    // marginTop: -40,
   },
   spanedit: {
     color: colors.lightBackground,
@@ -50,14 +51,14 @@ export const styles = StyleSheet.create({
   },
   ortext: {
     color: colors.lightBlack,
-    fontSize: 20,
-    lineHeight: 1,
+    fontSize: 17,
+    // lineHeight: 1,
     paddingTop: heightPixel(45),
   },
   rowEvenly: {
     flexDirection: 'row',
     justifyContent: 'space-evenly',
-    paddingBottom: 40,
+    marginVertical:35,
     marginHorizontal: 80,
   },
   socialView: {

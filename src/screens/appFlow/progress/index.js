@@ -14,6 +14,7 @@ import {Header, AppHeader} from '../../../components';
 import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 import {BarChart} from 'react-native-gifted-charts';
 import CustomCalendar from '../../../components/calender';
+
 const Progress = ({navigation}) => {
   const [isCalendarVisible, setCalendarVisible] = useState(false);
   const barData = [
@@ -26,7 +27,7 @@ const Progress = ({navigation}) => {
     {value: 260, label: 18},
   ];
   const xAxisLabels = [12, 13, 14, 15, 16, 17, 18];
-  const yAxisValues = [0, 50, 100, 150, 200, 250, 300];
+  const yAxisLabels = [0, 50, 100, 150, 200, 250, 300];
 
   const toggleCalendar = () => {
     setCalendarVisible(!isCalendarVisible);
@@ -73,12 +74,14 @@ const Progress = ({navigation}) => {
                 barWidth={10}
                 noOfSections={7}
                 barBorderRadius={20}
-                frontColor="#3066BE"
+                frontColor="#3066BE"     
                 data={barData}
                 yAxisThickness={0}
                 xAxisThickness={0}
-                xLabels={xAxisLabels}
-                yValues={yAxisValues}
+                xAxisLabels={xAxisLabels}
+                yAxisLabels={yAxisLabels}
+                xAxisLabelTextStyle={styles.xAxisLabelTextStyle}
+      yAxisTextStyle={styles.yAxisTextStyle}
                 rulesThickness={0}
               />
             </View>

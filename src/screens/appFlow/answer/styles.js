@@ -86,11 +86,11 @@ export const styles = StyleSheet.create({
     fontSize: responsiveFontSize(2),
     padding: 10,
     paddingTop: 10,
-    borderWidth: 1,
     borderRadius: 8,
     borderColor: colors.grey,
-    backgroundColor: colors.lightgrey,
-    marginTop: 15,
+    backgroundColor: colors.background,
+    marginTop: 10,
+    elevation:2,
   },
   ansbox: {
     width: widthPixel(390),
@@ -108,13 +108,13 @@ export const styles = StyleSheet.create({
     borderRadius: 8,
     borderColor: colors.grey,
     backgroundColor: colors.lightpink,
-    marginTop: 15,
+    marginTop: 10,
   },
   solbox: {
     width: widthPixel(390),
     height: heightPixel(190),
     backgroundColor: colors.background,
-    marginTop: -55,
+    marginTop: -70,
   },
 
   pv30: {

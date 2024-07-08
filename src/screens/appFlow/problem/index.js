@@ -20,7 +20,7 @@ const Problem = ({navigation}) => {
     {
       id: 3,
       icon: appIcons.next,
-      onPress: () => next(),
+      onPress: () => navigation.navigate(routes.whiteboard),
     },
   ];
   return (
