@@ -1,0 +1,394 @@
+[
+    {
+        "merged": "com.numera.app-merged_res-6:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.numera.app-main-7:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_shoptoken.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_shoptoken.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_logo.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_logo.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.numera.app-main-7:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/mipmap-ldpi_ic_launcher.png.flat",
+        "source": "com.numera.app-main-7:/mipmap-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_google.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_google.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_lockk.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_lockk.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_arrowright.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_arrowright.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_pieicon.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_pieicon.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_piepic.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_piepic.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.numera.app-res-0:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-xxxhdpi_node_modules_reactnativecalendars_src_calendar_img_previous.png.flat",
+        "source": "com.numera.app-res-0:/drawable-xxxhdpi/node_modules_reactnativecalendars_src_calendar_img_previous.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-xhdpi_node_modules_reactnativecalendars_src_img_down.png.flat",
+        "source": "com.numera.app-res-0:/drawable-xhdpi/node_modules_reactnativecalendars_src_img_down.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_notification.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_notification.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_store.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_store.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.numera.app-main-7:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.numera.app-main-7:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.numera.app-res-0:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_hint.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_hint.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.numera.app-main-7:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_archive.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_archive.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_profilelogo.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_profilelogo.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_arrow2.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_arrow2.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_attherate.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_attherate.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_lock.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_lock.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-xxxhdpi_node_modules_reactnativecalendars_src_img_down.png.flat",
+        "source": "com.numera.app-res-0:/drawable-xxxhdpi/node_modules_reactnativecalendars_src_img_down.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.numera.app-main-7:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_mode3.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_mode3.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.numera.app-main-7:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_tabpro.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_tabpro.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_node_modules_reactnativecalendars_src_img_down.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/node_modules_reactnativecalendars_src_img_down.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_drawer.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_drawer.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_whiteboard.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_whiteboard.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_ratestar.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_ratestar.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.numera.app-main-7:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-hdpi_node_modules_reactnativecalendars_src_calendar_img_next.png.flat",
+        "source": "com.numera.app-res-0:/drawable-hdpi/node_modules_reactnativecalendars_src_calendar_img_next.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-xxhdpi_node_modules_reactnativecalendars_src_calendar_img_previous.png.flat",
+        "source": "com.numera.app-res-0:/drawable-xxhdpi/node_modules_reactnativecalendars_src_calendar_img_previous.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_mainlogo.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_mainlogo.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-xxhdpi_node_modules_reactnativecalendars_src_calendar_img_next.png.flat",
+        "source": "com.numera.app-res-0:/drawable-xxhdpi/node_modules_reactnativecalendars_src_calendar_img_next.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_problem.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_problem.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_arrow1.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_arrow1.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-xxhdpi_node_modules_reactnativecalendars_src_img_down.png.flat",
+        "source": "com.numera.app-res-0:/drawable-xxhdpi/node_modules_reactnativecalendars_src_img_down.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_profile.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_profile.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_profiletab.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_profiletab.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_fire.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_fire.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_pie.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_pie.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_favoritetab.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_favoritetab.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_onboarding1.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_onboarding1.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_calendr.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_calendr.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-xxxhdpi_node_modules_reactnativecalendars_src_calendar_img_next.png.flat",
+        "source": "com.numera.app-res-0:/drawable-xxxhdpi/node_modules_reactnativecalendars_src_calendar_img_next.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_arase.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_arase.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_mode2.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_mode2.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_hide.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_hide.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_editprofile.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_editprofile.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_del.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_del.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_mediaicons.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_mediaicons.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-xxhdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
+        "source": "com.numera.app-res-0:/drawable-xxhdpi/node_modules_reactnativecalendars_src_img_up.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.numera.app-main-7:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_unratestar.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_unratestar.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_right.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_right.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.numera.app-main-7:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.numera.app-main-7:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_write.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_write.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-hdpi_node_modules_reactnativecalendars_src_calendar_img_previous.png.flat",
+        "source": "com.numera.app-res-0:/drawable-hdpi/node_modules_reactnativecalendars_src_calendar_img_previous.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_next.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_next.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/node_modules_reactnativecalendars_src_img_up.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_mode1.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_mode1.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-hdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
+        "source": "com.numera.app-res-0:/drawable-hdpi/node_modules_reactnativecalendars_src_img_up.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_onboarding3.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_onboarding3.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_show.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_show.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_progress.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_progress.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_camera.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_camera.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_send.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_send.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.numera.app-main-7:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_dashboardtab.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_dashboardtab.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.numera.app-res-0:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_left.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_left.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.numera.app-main-7:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.numera.app-main-7:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.numera.app-main-7:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.numera.app-res-0:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.numera.app-main-7:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-xxxhdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
+        "source": "com.numera.app-res-0:/drawable-xxxhdpi/node_modules_reactnativecalendars_src_img_up.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_check.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_check.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_arrowback.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_arrowback.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-hdpi_node_modules_reactnativecalendars_src_img_down.png.flat",
+        "source": "com.numera.app-res-0:/drawable-hdpi/node_modules_reactnativecalendars_src_img_down.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_calendar.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_calendar.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-xhdpi_node_modules_reactnativecalendars_src_calendar_img_previous.png.flat",
+        "source": "com.numera.app-res-0:/drawable-xhdpi/node_modules_reactnativecalendars_src_calendar_img_previous.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_line.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_line.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_onboarding2.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_onboarding2.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_close.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_close.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-xhdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
+        "source": "com.numera.app-res-0:/drawable-xhdpi/node_modules_reactnativecalendars_src_img_up.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_graph.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_graph.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_facebook.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_facebook.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-mdpi_src_assets_icons_edit.png.flat",
+        "source": "com.numera.app-res-0:/drawable-mdpi/src_assets_icons_edit.png"
+    },
+    {
+        "merged": "com.numera.app-merged_res-6:/drawable-xhdpi_node_modules_reactnativecalendars_src_calendar_img_next.png.flat",
+        "source": "com.numera.app-res-0:/drawable-xhdpi/node_modules_reactnativecalendars_src_calendar_img_next.png"
+    }
+]

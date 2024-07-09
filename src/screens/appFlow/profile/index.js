@@ -6,6 +6,7 @@ import {styles} from './styles';
 import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 import {CustomCard} from '../../../components/customcard';
 import ImageCropPicker from 'react-native-image-crop-picker';
+import { useNavigation } from '@react-navigation/native';
 const Profile = ({navigation}) => {
   const[image, setImage]= useState('');
   
@@ -31,7 +32,6 @@ const Profile = ({navigation}) => {
         contentContainerStyle={styles.fg1}>
         <View style={[styles.wrapper]}>
           <View style={styles.head}>
-           
           <View style={styles.profilemain}>
             <Image style={{
                width: widthPixel(150),
@@ -74,12 +74,14 @@ const Profile = ({navigation}) => {
               title={'Contact Us'}
               leftIcon={appIcons.lockk}
               rightarrow={true}
+              navigation={navigation}
               onPress={() => navigation.navigate(routes.contactus)}
             />
             <CustomCard
               title={'Feedback'}
               leftIcon={appIcons.check}
               rightarrow={true}
+              navigation={navigation}
               onPress={() => navigation.navigate(routes.feedback)}
             />
           </View>
